@@ -9,6 +9,7 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  mode: "jit",
   theme: {
     container: {
       center: true,
