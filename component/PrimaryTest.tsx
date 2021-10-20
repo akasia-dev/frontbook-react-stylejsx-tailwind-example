@@ -1,4 +1,4 @@
-import style from "./primary-test.scss";
+import style from "./PrimaryTest.scss";
 
 export interface IPrimaryTestProps {
   name: string;
