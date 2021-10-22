@@ -11,6 +11,12 @@ export default {
     "Frontbook Github": "https://github.com/akasia-dev/frontbook",
   },
 
+  publicServePaths: ["./public"],
+  componentFolderName: "component",
+  ignoreComponents: [],
+  disablePreactInjection: false,
+  disableHMR: false,
+
   port: 5000,
   webpack: {
     // * Styled JSX + SCSS
