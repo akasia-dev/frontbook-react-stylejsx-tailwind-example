@@ -15,7 +15,7 @@
   "devDependencies": {
     "css-loader": "^6.0.0",
     "file-loader": "^6.2.0",
-    "frontbook-react": "^1.1.29",
+    "frontbook-react": "^1.1.32",
     "node-sass": "^6.0.1",
     "postcss": "^8.3.9",
     "postcss-flexbugs-fixes": "^5.0.2",
