@@ -62,7 +62,7 @@ export default demo({
     // age: {
     //   type: "number",
     //   defaultValue: 0,
-    // }
+    // },
 
     // * 선택 가능한 문자열 예시
     // language: {
