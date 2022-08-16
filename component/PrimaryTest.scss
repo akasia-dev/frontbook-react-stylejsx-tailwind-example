@@ -1,3 +1,7 @@
 .primaryTest {
-  @apply bg-white rounded-sm p-3 text-black;
+  // @apply bg-white rounded-sm p-3 text-black;
+  background-color: white;
+  border-radius: 3px;
+  padding: 12px;
+  color: black;
 }

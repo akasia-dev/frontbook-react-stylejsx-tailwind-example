@@ -4,15 +4,16 @@
   "description": "Frontbook react example",
   "browser": "true",
   "scripts": {
-    "dev": "npx prestart && frontbook-react dev",
-    "export": "npx prestart && frontbook-react export",
-    "watch": "npx prestart && frontbook-react watch",
-    "prestart": "npx prestart"
+    "dev": "frontbook-react dev",
+    "new": "npx ts-node scripts/new.ts",
+    "export": "frontbook-react export",
+    "watch": "frontbook-react watch"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/inquirer": "^9.0.1",
     "css-loader": "^6.0.0",
     "file-loader": "^6.2.0",
     "frontbook-react": "^1.1.37",
@@ -26,5 +27,8 @@
     "styled-jsx": "5.0.0-beta.7",
     "tailwindcss": "^2.2.7",
     "url-loader": "^4.1.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
   }
 }
